@@ -1,0 +1,632 @@
+body{
+  background:#ffff;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  margin:0;
+  padding:0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headerMain{
+  padding: 0;
+  margin: 0;
+}
+
+.headerUl{
+  display: flex;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(40, 40, 40);
+}
+
+.headerLi{
+  display: inline-block;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  font-weight:100;
+  padding: 20px 0 0 30px;
+}
+
+.headerLi a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.liveHeader{
+  display: flex;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.liveHeaderInner{
+  display: inline-block;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight:100;
+  padding: 20px 0 0 30px;
+  color: black;
+}
+
+.headerLi img{
+  padding:0 0px;
+  width: 60px;
+}
+
+.status{
+  color:salmon;
+}
+
+
+.status a{
+  color:salmon;
+}
+
+.mLeft{
+  margin-left: 470px;
+}
+
+.mLeft a{
+  color:blue;
+}
+
+.text {
+  display: inline-block;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 22px 0 0 35px;
+}
+
+.text a{
+  text-decoration: none;
+  color: black;
+}
+
+.mainImage{
+  margin-bottom: 120px;
+}
+
+.homeImage{
+  width: 100%;
+  height: 670px;
+
+}
+
+.firstThree{
+  display: flex;
+  margin-bottom: 80px;
+}
+
+
+.imageHW{
+  width: 380px;
+  height: 230px;
+}
+
+.ml30{
+  margin-left: 70px;
+}
+
+.marginLeft{
+  margin-left: 130px;
+  padding-bottom: 40px;
+  font-weight:500;
+}
+
+.homeFooter{
+  display: flex;
+  padding:50px 17%;
+  background-color: #e8e2e2;
+}
+
+.homeFooter a{
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 25px;
+  color:blue;
+}
+
+
+
+.footerMainInner{
+  font-stretch:expanded;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 130px;
+  padding-top:80px;
+}
+
+.footerMainInner h1{
+  font-size: 52px;
+  font-stretch:expanded;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom:30px;
+}
+
+.footerFlex{
+  display: flex;
+}
+
+.footerFlex1{
+  width:200px;
+}
+
+.footerFlex2{
+  width: 300px;
+  padding-left: 150px;
+}
+
+.footerMainInner a{
+  display:inline-block;
+  padding-bottom:10px;
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.dFlex{
+  display:flex;
+}
+
+.pr5 a{
+  font-size: 30px;
+  padding-top:10px;
+  padding-right: 10px;
+}
+
+.footerFlex1 h3{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 50px 0 0px 0;
+}
+
+
+.footerFlex2 h3{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0px 0 0px 0;
+}
+
+.inputSelecter{
+  display:flex;
+}
+
+.inputSelecter select{
+  border: 0px solid black;
+  background-color: rgb(183, 188, 183);
+  margin-top: 20px;
+  width: 110px;
+  height: 30px;
+}
+.inputSelecter2{
+  margin-left: 10px;
+  width: 500px;
+}
+
+.footerFlex3{
+  padding-left: 150px;
+}
+
+.footerFlex3 h3{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0px 0 0px 0;
+}
+
+.footerUl{
+  margin:0;
+  padding: 0;
+}
+
+.footerLi{
+  display: inline-block;
+  text-decoration: none;
+  padding: 80px 20px 130px 0px;
+  font-size: small;
+  font-variant:initial;
+}
+
+.extraPadding{
+  padding-left: 650px;
+}
+
+.live12FirstImage{
+  padding-bottom: 100px;
+}
+
+.live12FirstImage img{
+  width: 100%;
+  height: 610px;
+}
+
+.colorBlue{
+  color: blue;
+}
+
+.live12H1{
+  padding: 0 130px 0 130px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 52px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+}
+
+.live12VideoTag{
+  width: 1250px;
+  height: 720px; 
+  padding-left: 130px;
+  margin-bottom: 100px;
+}
+
+.pl130{
+  padding-left: 130px;
+}
+
+.textBlue a{
+  color:blue;
+  padding-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fw400{
+  font-weight: 400;
+}
+
+.live12Large{
+  width: 100%;
+  background-color: #EBF0DC;
+}
+
+.live12LargeH1{
+  padding: 80px 0 100px 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+}
+
+.live12VideoTag2{
+  width: 1250px;
+  height: 720px; 
+  margin-bottom: 100px;
+}
+
+.mb100{
+  margin-bottom: 100px;
+}
+
+.flex1{
+  width: 650px;
+}
+
+.flex1 h2{
+  margin-bottom: 50px;
+}
+.flex2 h2{
+  margin-bottom: 50px;
+}
+
+.flex1 img{
+  margin-left: 100px;
+  width: 550px;
+}
+
+.flex1 p{
+  margin-bottom: 100px;
+}
+
+.flex2{
+  margin-left: 50px;
+}
+
+.flex2h2{
+  margin-top: 200px;
+}
+
+.twoflex1{
+  width:400px;
+  padding-top: 150px;
+}
+
+.twoflex2Video{
+  margin-left: 100px;
+  width: 900px;
+  height: 520px;
+}
+
+.threeflex1Video{
+  width: 900px;
+  height: 520px;
+}
+
+.threeflex2{
+  padding-top: 150px;
+  margin-left: 100px;
+}
+
+.fourflex1{
+  width: 500px;
+}
+
+.fourflex1 img{
+  width: 500px;
+  height: 300px;
+  margin: 50px 0 100px 130px;
+}
+.fourflex2{
+  margin-left: 300px;
+  width: 500px;
+}
+
+.fourflex2 h2{
+  margin-top: 100px;
+}
+
+.mt200{
+  padding-top: 200px;
+}
+
+.pb100{
+  padding-bottom: 100px;
+}
+
+.h1Large{
+  width: 1100px;
+  padding: 50px 0 50px 130px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+}
+
+.slLive12F1{
+  padding-left: 130px;
+  width: 400px;
+}
+
+.slLive12F2{
+  margin-left: 100px;
+}
+
+.mt300{
+  margin-top:200px;
+}
+
+.live12Last{
+  width:100%;
+  background-color: #CDBEFD;
+  padding-bottom: 150px;
+}
+
+.first img{
+  width: 900px;
+}
+
+.second{
+  margin: 300px 120px 0 120px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+.first2{
+  width: 400px;
+  margin-left: 130px;
+  margin-top: 300px;
+}
+
+.second2 img{
+  width: 900px;
+  margin-left: 100px;
+}
+
+.afterFlex img{
+  width: 1250px;
+  margin-left: 130px;
+
+}
+
+.mt100{
+  margin-top: 100px;
+}
+
+.first3{
+  width: 750px;
+  margin-left: 130px;
+}
+
+.second3{
+  width: 750px;
+  margin-left: 100px;
+}
+
+.ml130{
+  margin-left: 130px;
+}
+
+.lastIfram{
+  width: 1250px;
+  height: 800px;
+  margin-left: 130px;
+}
+
+.decorationNone{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.LargeH1{
+  padding: 80px 0 0px 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+}
+
+.one{
+  width: 800px;
+}
+
+.two{
+  width: 800px;
+  margin-left: 100px;
+}
+.three{
+  width: 800px;
+  margin-left: 100px;
+}
+
+.LargestH1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 130px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+}
+
+.pdH1{
+  padding: 80px 0 0px 470px;
+}
+
+.ml540{
+  margin-left: 540px;
+}
+
+.wheight{
+  width: 380px;
+  height: 220px;
+}
+
+.width{
+  width: 380px;
+}
+
+.pr80{
+  padding-right: 80px;
+}
+
+.ladiv{
+  margin: 0;
+  padding: 0;
+}
+
+.ladiv h1 {
+  padding: 20px 0 0 500px;
+  border: 3px solid black;
+}
+
+.imageprop{
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.mb20{
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.OVclip1{
+  width: 1515px;
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+.OVclip2{
+  margin-left: 100px;
+  width: 600px;
+  height: 300px;
+}
+
+.logindiv h1{
+  width: 570px;
+  margin: 0px;
+  padding: 50px 0 20px 0px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 80px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+  border-bottom: 3px solid #EEEEEE;
+}
+
+.logindiv h3{
+  width: 600px;
+  margin: 0px;
+  padding: 30px 0 20px 0px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+}
+
+.logindiv p{
+  margin: 0px;
+  padding: 0px;
+  width:570px;
+}
+
+.logindiv input{
+  margin-top: -50px;
+  width: 370px;
+  height: 40px;
+  background-color: #EEEEEE;
+  border: 0px solid #EEEEEE;
+}
+
+.logindiv button{
+  width: 100px;
+  height: 40px;
+  margin-top:30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight:500;
+  font-stretch:semi-condensed;
+  border: 0px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+.logindiv select{
+  margin-top: -50px;
+  width: 370px;
+  height: 40px;
+  background-color: #EEEEEE;
+  border: 0px solid #EEEEEE;
+}
